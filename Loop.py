@@ -17,17 +17,27 @@ for b in color:
         print("continue")
         continue
 print("break the loop")
+
 print("===================================")
 for k in range(8):
     print(k)
     print(k+1)
+
 print("===================================")
+
 for j in range(4,8):
     print(j)
 print("===================================")
 
 for j in range(4,8,2): # last parameter will be added difference of 2 with each iterated number
     print(j)
+
+print("=============use else with for======================")
+for k in range(5):
+     print(k)
+else:                   #this else means for loop is succesfully ended , if we use break the this will not execute
+    print("else part")
+
 print("============while loop=======================")
 
 i=0

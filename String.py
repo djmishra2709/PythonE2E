@@ -53,3 +53,4 @@ print(name.index(","))   #it will throw error if not found
 print(name.islower())
 print(name.swapcase())
 print(name.isspace())
+print(name1[:-2])
